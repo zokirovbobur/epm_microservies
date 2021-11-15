@@ -10,6 +10,8 @@
     <modules>
         <module>one</module>
         <module>two</module>
+        <module>one-two</module>
+        <module>common</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>business-services</artifactId>
