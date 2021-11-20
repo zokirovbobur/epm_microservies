@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.epam.javacc</groupId>
-    <artifactId>one-two</artifactId>
+    <artifactId>two-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>one-two</name>
-    <description>one-two</description>
+    <name>two-api</name>
+    <description>two-api</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2020.0.4</spring-cloud.version>
@@ -62,7 +62,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.epam.javacc.onetwo.OneTwoApplication</mainClass>
+                    <mainClass>com.epam.javacc.twoapi.TwoApiApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
@@ -101,7 +101,6 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>one-two</finalName>
+        <finalName>two-api</finalName>
     </build>
-
 </project>

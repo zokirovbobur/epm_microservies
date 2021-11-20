@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apigateway" />
-        <module name="one-two" />
         <module name="common" />
+        <module name="two-api" />
         <module name="two" />
         <module name="discovery" />
         <module name="one" />
@@ -17,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dicovery" target="8" />
+      <module name="one-two" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +29,7 @@
       <module name="one" options="-parameters" />
       <module name="one-two" options="-parameters" />
       <module name="two" options="-parameters" />
+      <module name="two-api" options="-parameters" />
     </option>
   </component>
 </project>

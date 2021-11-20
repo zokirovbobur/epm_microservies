@@ -5,8 +5,8 @@ VOLUME /tmp
 LABEL groupId = "com.epam.javacc.microservices"
 LABEL description = "microservice architecture training"
 
-COPY target/one-two.jar one-two.jar
+COPY target/two-api.jar two-api.jar
 
-EXPOSE 11111
+EXPOSE 9090
 
-ENTRYPOINT ["java", "-jar", "/one-two.jar"]
+ENTRYPOINT ["java", "-jar", "/two-api.jar"]
